@@ -108,8 +108,9 @@ html {
 body {
     font-family: "Helvetica";
     line-height: 1.4;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-left: 3em;
+    padding-right: 3em;
+    max-width: 100%;
 }
 
 img {
@@ -121,9 +122,10 @@ img {
     background-color: white;
     border-bottom: 1px solid #e7ebed;
     position: relative;
-    width: 100%;
-    padding-bottom: 1.5em; 
-    padding-top: 2em;
+    max-width: 100%;
+    padding-bottom: 1em; 
+    padding-top: 1.25em;
+    overflow: hidden;
 }
 
 .page-header img{
@@ -138,8 +140,8 @@ img {
     right: 0;
     top: 0;
     margin: 0;
-    font-size: 15pt;
-    padding-top: 1.75em;
+    font-size: 12pt;
+    padding-top: 1.5em;
 }
 
 .main-nav ul{
@@ -169,6 +171,7 @@ img {
 
 .main-nav button a{
     padding-right: 0;
+    font-size: 10pt;
 }
 
 .main-nav li a:hover {
@@ -187,8 +190,8 @@ img {
 
 .page-intro {
     text-align: center;
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .page-intro h1, h2 {
@@ -198,21 +201,56 @@ img {
 }
 
 .page-intro h1 {
-    padding-top: 0.5em;
-    font-size: 475%;
+    padding-top: .75em;
+    font-size: 350%;
     font-weight: lighter;
 }
 
 .page-intro h2 {
-    font-size: 450%;
+    font-size: 350%;
 }
 
 .page-intro p {
-    font-size: 18pt;
+    font-size: 14pt;
     color: #1069c9;
+    font-weight: normal;
 }
 
+.page-section {
+    padding-top: 1em;
+}
 
+.options {
+    float: left;
+    width: 33.333%;
+    margin: auto;
+    padding-left: 2em;
+}
+
+.options h3{
+    font-size: 175%;
+    text-align:center;
+    padding-right: 1em;
+}
+
+.options a {
+    text-decoration: none;
+    color: #1069c9;
+    font-size: 11pt;
+    border: 1px solid #1069c9;
+    padding: 1em 1.25em;
+}    
+
+.tagline {
+    clear: both;
+    padding-top: 3em;
+    text-align: center;
+    font-size: 13pt;
+}
+
+.extra {
+    padding-top: 1em;
+}
 
 
 
