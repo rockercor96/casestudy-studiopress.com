@@ -97,14 +97,93 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+}
 
+*, *:before, *:after {
+    box-sizing: inherit;
+} 
 
+body {
+    font-family: "Helvetica";
+    line-height: 1.4;
+    padding-left: 4em;
+    padding-right: 4em;
+}
 
+img {
+    max-width: 100%;
+    display: block;
+}
 
+.page-header {
+    background-color: white;
+    border-bottom: 1px solid #e7ebed;
+    position: relative;
+    width: 100%;
+    padding-bottom: 2em; 
+    padding-top: 2em;
+}
 
+.page-header img{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
 
+.main-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    font-size: 15pt;
+    padding-top: 2em;
+}
 
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    list-style-type: none;
+}
 
+.main-nav li {
+    float: left;
+}
+
+.main-nav li a {
+    padding-right: 3em;
+    text-decoration: none;
+    color: #556e79;
+}
+
+.main-nav button {
+    background-color: white;
+    border: 1px solid #556e79;
+    border-radius: 3px;
+    padding: .75em 1.25em;
+    margin-top: -1em;
+}
+
+.main-nav button a{
+    padding-right: 0;
+}
+
+.main-nav li a:hover {
+    color: #1069c9;
+}
+
+.main-nav button:hover{
+    border: 1px solid #1069c9;
+    box-shadow: 0 0 3px #1069c9;
+    cursor: pointer;
+}
+
+.main-nav button:hover a{
+    color: #1069c9;
+}
 
 
 
