@@ -188,7 +188,6 @@ img {
     color: #1069c9;
 }
 
-
 .page-intro {
     text-align: center;
     margin-left: 100px;
@@ -242,6 +241,8 @@ img {
     border: 1px solid #1069c9;
     padding: 1em 1.25em;
     border-radius: 3px;
+    margin-right: 1.75em;
+    padding-top: 1em;
 }    
 
 .options a:hover {
@@ -250,7 +251,18 @@ img {
     box-shadow: 0px 3px 3px #d5e5f6;
 }
 
+.other-option a {
+    color: #263238;
+    border: 1px solid #263238;
+}
+
+.other-option a:hover {
+    color: #556e79;
+    border: 1px solid #556e79;
+}
+
 .tagline {
+    margin-left: .75em;
     clear: both;
     padding-top: 3em;
     text-align: center;
@@ -288,10 +300,6 @@ img {
     float: left; 
 }
 
-.set-up-info h2, p, a {
-    padding: 0;
-    
-} 
 .set-up-info h2 {
     font-size: 185%;
     
@@ -303,7 +311,6 @@ img {
 }
 
 .set-up-info a {
-    margin-top: 2em;
     border: 1px solid #1069c9;
     text-decoration: none;
     font-size: 14.5pt;
@@ -359,7 +366,7 @@ img {
 }   
 
 .numbers-info h3{
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 275%;
     margin-bottom: -.35em;
 }
@@ -416,7 +423,7 @@ img {
     clear: both;
     margin-top: 45em;
     margin-left: 5em;
-    margin-right: 5em;
+    margin-right: 5em; 
 }
 
 .wp-engine-info {
@@ -529,6 +536,7 @@ img {
 .framework-info {
     width: 50%;
     float: left;
+    padding-right: 3em;
 }
 .framework-info img {
     clear: both;
@@ -693,17 +701,17 @@ img {
     box-shadow: 0px 3px 3px #e1e1e1; 
 }
 
+
 .img-2 {
     position: relative;
 }
-
 
 .footer {
     margin-top: 25em;
     clear: both;
     overflow: hidden;
     border-top: 1px solid #e7ebed;
-    padding: 5em 3em;
+    padding: 5em 2em;
 }
 
 .footer-logo {
@@ -717,12 +725,17 @@ img {
 }
 
 .footer-list {
+    margin-top: -1em;
     float: left;
     width: 13.333%;
     font-size: 10.5pt;
-    
 }
 
+.footer-list li {
+    margin-top: .75em;
+    margin-left: -3em;
+    margin-right: 2.5em;
+}
 
 .footer-list strong {
     text-transform: uppercase;
